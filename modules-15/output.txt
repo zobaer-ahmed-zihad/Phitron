@@ -1,0 +1,7 @@
+0th index er value: 5 
+0th index er value: 5
+First index er value: 10
+15
+15
+15
+15
