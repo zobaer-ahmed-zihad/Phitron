@@ -1,5 +1,6 @@
-#include<stdio.h>
+// 1. Has return + parameter
 
+#include<stdio.h>
 int sum(int a, int b){
      int addition = a + b;
 

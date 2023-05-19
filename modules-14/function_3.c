@@ -1,14 +1,16 @@
+//4. No return + parameter
+
 #include<stdio.h>
 
-void division(int a, int b){
-    int result = a - b;
+void multiply(int a, int b){
+    int result = a * b;
     printf("%d", result);
 }
 
 int main(){
     int a, b;
     scanf("%d %d", &a, &b);
-    division(a, b);
+    multiply(a, b);
     
     return 0;
 }

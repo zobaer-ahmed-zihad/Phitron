@@ -1,15 +1,15 @@
+// 
+
 #include<stdio.h>
 
 int sum(){
     int a, b;
     scanf("%d %d", &a, &b);
-    int addition = a + b;
+    int division = a - b;
 
-    return addition;
+    return division;
 }
-
 int main(){
-
     int result = sum();
     printf("%d", result);
     

@@ -1,6 +1,8 @@
+// 3. No return No parameter
+
 #include<stdio.h>
 
-void subtraction(void){
+void division(void){
     float a, b;
     scanf("%f %f", &a, &b);
     float result = a / b;
@@ -9,6 +11,6 @@ void subtraction(void){
 }
 
 int main(){
-    subtraction();
+    division();
     return 0;
 }
