@@ -1,1 +1,2 @@
-Odd
+Minumum 43
+Maximum 50
