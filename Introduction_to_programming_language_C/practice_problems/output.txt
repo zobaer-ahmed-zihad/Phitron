@@ -1,1 +1,2 @@
-Odd
+ALPHA
+IS CAPITAL
