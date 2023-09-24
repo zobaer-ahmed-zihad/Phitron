@@ -3,18 +3,18 @@ int main(){
     int n, num;
     int even = 0, odd = 0, positive = 0,negative = 0;
     scanf("%d", &n);
-    for(int i = 0; i<n; i++){
+    for(int i = 1; i<=n; i++){
         scanf("%d", &num);
 
         if(num % 2 == 0){
-            even = even + 1;
+            even++;
         }else{
-            odd = odd + 1;
+            odd++;
         }
         if(num > 0){
-            positive += 1;
+            positive++;
         }else if(num < 0){
-            negative = negative + 1;
+            negative++;
         }
 
     }
