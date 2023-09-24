@@ -1,2 +1,4 @@
-ALPHA
-IS CAPITAL
+Even: 3
+Odd: 2
+Positive: 1
+Negative: 3
