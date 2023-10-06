@@ -1,2 +1,2 @@
 
-    int arr[n];
+        if(arr[i] > 0){

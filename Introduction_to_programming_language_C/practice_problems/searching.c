@@ -1,4 +1,4 @@
-//Problem : https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B
+// Problem : https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B
 
 #include <stdio.h>
 int main()
@@ -6,7 +6,7 @@ int main()
     int n;
     scanf("%d", &n);
     int arr[n];
-    int flag = -1;
+    int ans = -1;
 
     for (int i = 0; i < n; i++)
     {
@@ -19,15 +19,11 @@ int main()
     {
         if (x == arr[i])
         {
-            printf("%d", i);
-            flag = 1;
+            ans = i;
             break;
         }
     }
-    if (flag == -1)
-    {
-        printf("-1");
-    }
+    printf("%d", ans);
 
     return 0;
 }
