@@ -1,31 +1,33 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-    char a;
-    cin>> a;
+    char ch;
+    cin>>ch;
+    char che = tolower(ch);
 
-    switch (a)
-    {
-    case 'a':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'e':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'i':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'o':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'u':
-        cout<<"Vowel"<<endl;
-        break;
-    
-    default:
-        cout<<"Consonant"<<endl;
-        break;
+    //toupper() function convert lower case char to uppercase 
+    //tolower() function convert upper case char to lowercase 
+
+
+    switch(che){
+        case 'a':
+            cout<<"Vowel";
+            break;
+        case 'e':
+            cout<<"Vowel";
+            break;
+        case 'i':
+            cout<<"Vowel";
+            break;
+        case 'o':
+            cout<<"Vowel";
+            break;
+        case 'u':
+            cout<<"Vowel";
+            break;
+        default:
+            cout<<"Consonant";
     }
 
     return 0;
