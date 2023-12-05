@@ -1,12 +1,13 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 class Node
 {
-    public:
-        int val;
-        Node * next;
+public:
+    int val;
+    Node *next;
 
-    Node(int val){ // create a constructor
+    Node(int val)
+    {
         this->val = val;
         this->next = NULL;
     }
@@ -19,9 +20,8 @@ int main()
 
     a.next = &b;
 
-   
-    cout<<a.val<<endl;
-    cout<<(*a.next).val<<endl; //long way
-    cout<<a.next->val; // short cart
+    cout << a.val << endl;
+    cout << (*a.next).val << endl; // long way
+    cout << a.next->val;           // short cart
     return 0;
 }
