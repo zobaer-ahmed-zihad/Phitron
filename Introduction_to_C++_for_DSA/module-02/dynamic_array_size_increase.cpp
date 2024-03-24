@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-    int *a = new int [5];
+    int *a = new int [5]; //Dynamic array
     for (int i = 0; i < 5; i++)
     {
         cin>>a[i];
     }
-    int *b = new int [7];
+    int *b = new int [7]; //Dynamic array
     for (int i = 0; i < 5; i++)
     {
         b[i] = a[i];
@@ -20,8 +20,8 @@ int main()
         cout<<b[i]<<" ";
     }
     cout<<endl;
-    // delete a array
-    delete[] a;
+    
+    delete[] a; //Delete array
 
     for (int i = 0; i < 5; i++)
     {
