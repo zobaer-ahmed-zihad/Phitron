@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a[5][3];
+    int a[5][3]; // array decleartion
 
     for(int i = 0; i<5; i++){
         for (int j = 0; j < 3; j++)
