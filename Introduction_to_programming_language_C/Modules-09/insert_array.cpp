@@ -13,7 +13,7 @@ int main(){
     cin>>pos>>value;
 
     // Main core part 
-    for(int i = n; i >= pos; i--){
+    for(int i = n; i >= pos+1; i--){
         arr[i] = arr[i-1];
     }
     arr[pos] = value;
@@ -23,6 +23,5 @@ int main(){
         cout<<arr[i]<<" ";
     }
     
-
     return 0;
 }
