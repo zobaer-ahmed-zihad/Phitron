@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char ch[20];
+    char ch[25];
     //gets(ch);
-    fgets(ch,20 , stdin);
-    ch[18] = '\0';
+    fgets(ch,25 , stdin);
+    
 
     printf("%s", ch);
+   // printf("%d", sizeof(ch));
     return 0;
 }
