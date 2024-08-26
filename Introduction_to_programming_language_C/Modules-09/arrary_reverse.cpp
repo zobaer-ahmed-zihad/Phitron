@@ -9,6 +9,7 @@ int main(){
     }
     int i = 0;
     int j = n - 1;
+    // using two pointer technique
     while(i < j){
         int temp = arr[i];
         arr[i] = arr[j];
@@ -22,7 +23,6 @@ int main(){
     {
         cout<<arr[i]<<" ";
     }
-    
 
     return 0;
 }

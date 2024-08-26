@@ -16,13 +16,13 @@ int main(){
         arr[i-1] = arr[i];
     }
 
-    //  for(int i = pos; i<n; i++){
+    //  for(int i = pos; i<n-1; i++){
     //     arr[i] = arr[i+1];
     // }
     
     //we can not remove the last element
 
-    for (int i = 0; i <n; i++)
+    for (int i = 0; i <n-1; i++)
     {
         cout<<arr[i]<<" ";
     }
